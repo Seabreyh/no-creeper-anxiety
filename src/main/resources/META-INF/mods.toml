@@ -1,0 +1,15 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/weirtz/"
+
+[[mods]]
+modId="nocreeperanxiety"
+version="${file.jarVersion}"
+displayName="No Creeper Anxiety"
+displayURL="github.com/weirtz/no-creeper-anxiety"
+logoFile="examplemod.png"
+authors="Brendan Weirtz (dasreyh)"
+description='''
+A mod that will instantly reduce your anxiety towards creepers. No more big boomy holes.
+'''
