@@ -16,7 +16,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 
 
-version = 'v1.0.0'
+version = '1.0.0'
 group = 'com.weirtz.nocreeperanxiety' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'nocreeperanxiety'
 
