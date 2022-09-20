@@ -17,7 +17,8 @@ jobs:
     steps:
       - name: Get tagged version
         id: version-tag
-        run: echo "::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}"
+        run: echo "::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}" | sed 's/.*v//'
+
 
   build-jar:
     needs: setup
